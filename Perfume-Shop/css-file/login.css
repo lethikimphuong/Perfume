@@ -1,0 +1,82 @@
+body{
+    background-image: url("../images/login.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.content2{
+    background-color: rgb(79, 137, 214);
+    width: 1389px;
+    height:50px;
+    margin-left: -8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: -120px;
+    padding: 6px 0px;
+    position: fixed;
+}
+.content2 ul{
+    list-style: none;
+}
+.content2 li{
+    display: inline-block;
+}
+.content2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.content2 li:hover{
+    color: blue;
+}
+.form-login{
+    background-image: url("../images/login2.PNG");
+    margin-top: 120px;
+    width: 400px;
+    height: 320px;
+    margin-left: 450px;
+    border: 2px solid grey;
+    border-radius:5px ;
+    padding: 20px 30px;
+    opacity: 10;
+    z-index: 100;
+}
+
+form{
+    padding-top: 10px;
+}
+p{
+    font-size: 25px;
+}
+input[name="name"]{
+    margin-left: 10px;
+    height: 30px;
+    background-color: lightgray;
+}
+input[name="pass"]{
+    margin-left: 63px;
+    height: 30px;
+    background-color: lightgray;
+}
+button[name="login"]{
+ text-align: center;
+ margin: 30px 30px 10px 30px;
+ border-radius: 10px;
+ height: 40px;
+ font-size: 20px;
+}
+button[name="login"]:hover{
+    background-color: gray;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
