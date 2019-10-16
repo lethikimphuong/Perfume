@@ -184,30 +184,12 @@ font-size: 30px;
     overflow: hidden; 
     text-align: center;
   }
-    
-  .menuu {
-    position: absolute;
-    z-index: 900;
-    width: 100%;
-    bottom: 10px;
-  }
+  
   #slide-dot-1,#slide-dot-2,#slide-dot-3,#slide-dot-4{
     z-index: 900;
     width: 16px;
     height: 16px;
-    margin-top:520px;
-    display: none;
-  }
-  .menuu label:hover{
-    background: rgb(216, 61, 61);
-  }
-  .menuu label {
-    cursor: pointer;
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: palevioletred;;
-    border-radius: 50px;
+    margin-top:430px;
   }
   .slide {
     width: 200px;
@@ -270,7 +252,6 @@ font-size: 18px;
   }
   .footer{
     text-align: center;
-    background-color: rgb(180, 20, 20);
     width: 1349px;
     height: 250px;
     margin-top: 800px;
